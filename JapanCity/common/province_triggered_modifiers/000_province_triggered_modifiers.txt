@@ -1,0 +1,94 @@
+Tokyo_city_modifier = {
+    # 触发的修正是否在省份界面中可见的条件
+    potential = {
+        always = yes
+		
+
+    }
+
+    # 触发修正所需的条件
+    trigger = {
+        owner = {
+            tag = JAP
+            1028 = {
+                is_capital = yes
+            }
+        }
+        
+
+    }
+
+    # 触发修正的效果
+    local_production_efficiency = 0.2
+    local_tax_modifier = 0.2
+    tax_income = 12
+    local_development_cost = -0.2
+    statewide_governing_cost = -0.25
+    local_prosperity_growth = 0.1
+    province_trade_power_modifier = 0.2
+    trade_goods_size_modifier = 0.25
+    local_has_samurai = yes
+    fort_level = 1
+    local_manpower_modifier = 0.25
+    supply_limit_modifier = 0.25
+    blockade_force_required = 0.5
+    hostile_disembark_speed = 0.5
+    hostile_fleet_attrition = 5
+    local_ship_repair = 0.2
+    ship_recruit_speed = -0.25
+    
+    # Province scope
+    # 当触发修正的条件满足而开启时执行的效果
+    on_activation = {
+    
+    }
+    
+    # 当触发修正的条件不满足而关闭时执行的效果
+    on_deactivation = {
+    
+    } 
+}
+
+Osakashi_city_modifier = {
+    potential = {
+        always = yes
+		
+
+    }
+
+    trigger = {
+        owner = {
+            tag = JAP
+            
+        }
+        
+
+    }
+
+    local_production_efficiency = 0.2
+    local_tax_modifier = 0.2
+    tax_income = 12
+    local_development_cost = -0.2
+    statewide_governing_cost = -0.25
+    local_prosperity_growth = 0.1
+    province_trade_power_modifier = 0.2
+    trade_goods_size_modifier = 0.25
+    local_has_samurai = yes
+    fort_level = 1
+    local_manpower_modifier = 0.25
+    supply_limit_modifier = 0.25
+    blockade_force_required = 0.5
+    hostile_disembark_speed = 0.5
+    hostile_fleet_attrition = 5
+    local_ship_repair = 0.2
+    ship_recruit_speed = -0.25
+
+    on_activation = {
+    
+    }
+    
+    # 当触发修正的条件不满足而关闭时执行的效果
+    on_deactivation = {
+    
+    } 
+}
