@@ -1,0 +1,10 @@
+TokyoBay = {
+	# 在这个括号里添加省份修正就可以了
+    province_trade_power_value = 50
+	province_trade_power_modifier = 0.1
+	trade_goods_size_modifier = 0.25
+	trade_value = 10
+	allowed_num_of_buildings = 3
+	local_great_project_upgrade_cost = -0.25
+	local_great_project_upgrade_time = -0.1
+}
